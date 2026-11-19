@@ -1,3 +1,9 @@
+/*fonts*/
+body{
+    
+  font-family: "Lato", sans-serif;
+}
+
 /*Globals*/
 .contenedor {
     max-width: 1200px;
@@ -15,6 +21,7 @@
 .barra{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 30px;
 
 }
@@ -26,6 +33,12 @@
     font-size: 18px;
     margin-right: 20px;
 
+}
+.navegacion a:hover{
+    color: #FFD39E;
+}
+.navegacion a:last-of-type{
+    margin: 0;
 }
 
 
